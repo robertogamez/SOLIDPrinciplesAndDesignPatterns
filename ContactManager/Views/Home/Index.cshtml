@@ -1,17 +1,30 @@
-﻿@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
+﻿@model List<ContactManager.Core.Contact>
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title></title>
+    <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div>
-    
-    </div>
+    <h1>List of Contacts</h1>
+    @Html.ActionLink("Add New Contact", "AddContact", "Home")
+    <br /><br />
+    <table border="1" cellpadding="0">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>
+                    @Html.RouteLink("Delete", new
+                       {
+                           action = "DeleteContact",
+                           controller = "Home",
+                           id = item.Id
+                       })
+                </td>
+            </tr>
+        }
+    </table>
 </body>
 </html>

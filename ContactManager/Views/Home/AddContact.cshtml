@@ -1,17 +1,53 @@
-﻿@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
+﻿@model ContactManager.Core.Contact
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title></title>
+    <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div>
-    
-    </div>
+    <h1>Add New Contact</h1>
+    @Html.ActionLink("Go Back", "Index", "Home")
+
+    <br /><br />
+
+    @Html.BeginForm("AddContact", "Home", FormMethod.Post){
+        <table border="1" cellpadding="0">
+            <tr>
+                <td>First Name: </td>
+                <td>
+                    @Html.TextBoxFor(c => c.FirstName)
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name: </td>
+                <td>
+                    @Html.TextBoxFor(c => c.LastName)
+                </td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td>
+                    @Html.TextBoxFor(c => c.Email)
+                </td>
+            </tr>
+            <tr>
+                <td>Phone: </td>
+                <td>
+                    @Html.TextBoxFor(c => c.Phone)
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit" /> 
+                </td>
+            </tr>
+        </table>
+    }
+
+    <strong>
+        @ViewBag.Message
+    </strong>
+    @Html.ValidationSummary()
+
 </body>
 </html>

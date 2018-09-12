@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactManager", "ContactManager\ContactManager.csproj", "{E2420A8F-00EA-41BA-89F1-8985FD5ED1D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{D1B38EFA-962C-4F99-B958-87D250C20E39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E2420A8F-00EA-41BA-89F1-8985FD5ED1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2420A8F-00EA-41BA-89F1-8985FD5ED1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2420A8F-00EA-41BA-89F1-8985FD5ED1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B38EFA-962C-4F99-B958-87D250C20E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B38EFA-962C-4F99-B958-87D250C20E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B38EFA-962C-4F99-B958-87D250C20E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B38EFA-962C-4F99-B958-87D250C20E39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
