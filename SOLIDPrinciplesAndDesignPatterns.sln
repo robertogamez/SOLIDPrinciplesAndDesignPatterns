@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "Decorat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversionPattern", "DependencyInversionPattern\DependencyInversionPattern.csproj", "{E69DC768-CBF7-4762-BA02-F18DF6ECDE31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{8EE34F79-E83C-4C6D-8BC4-467C93CC5547}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{8EE34F79-E83C-4C6D-8BC4-467C93CC5547}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{D2E18B96-BBCE-478A-8340-6508888925A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{8EE34F79-E83C-4C6D-8BC4-467C93CC5547}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EE34F79-E83C-4C6D-8BC4-467C93CC5547}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EE34F79-E83C-4C6D-8BC4-467C93CC5547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2E18B96-BBCE-478A-8340-6508888925A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E18B96-BBCE-478A-8340-6508888925A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E18B96-BBCE-478A-8340-6508888925A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E18B96-BBCE-478A-8340-6508888925A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{A0B5F9F1-6673-4875-96F3-D23A2862C275} = {C9FCDCA3-92B6-40DC-8890-B88F8E0AD573}
 		{E69DC768-CBF7-4762-BA02-F18DF6ECDE31} = {4A601F62-007B-4C8F-ACB8-6F8F17C19F1E}
 		{8EE34F79-E83C-4C6D-8BC4-467C93CC5547} = {C9FCDCA3-92B6-40DC-8890-B88F8E0AD573}
+		{D2E18B96-BBCE-478A-8340-6508888925A6} = {C9FCDCA3-92B6-40DC-8890-B88F8E0AD573}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BA91B2D7-1B32-469B-A2EC-4F7F213D669C}
